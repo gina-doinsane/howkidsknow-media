@@ -1,0 +1,69 @@
+{
+ "badge": "3–12 歲",
+ "hook": [
+  "週日晚上，",
+  "一起慢慢放鬆"
+ ],
+ "hook_mark": "慢慢放鬆",
+ "hook_sub": "3 個親子一起做的小活動",
+ "hook_scene": "hook_props",
+ "hook_scene_args": {
+  "bubble": "深呼吸"
+ },
+ "games": [
+  {
+   "name": "角色心情卡",
+   "how": [
+    "問孩子：現在像跳跳虎，",
+    "還是慢慢走的驢子？"
+   ],
+   "skill": "認出自己現在的感覺",
+   "scene": "mascot_idle",
+   "scene_args": {
+    "symbol": "？"
+   }
+  },
+  {
+   "name": "吹大氣球",
+   "how": [
+    "一起吸氣，再慢慢吐出來，",
+    "像把氣球慢慢吹大。"
+   ],
+   "skill": "讓身體慢慢靜下來",
+   "scene": "mascot_idle",
+   "scene_args": {
+    "symbol": "～"
+   }
+  },
+  {
+   "name": "怪獸溫度計",
+   "how": [
+    "畫一張溫度計貼起來，",
+    "指指今天怪獸跑到哪格。"
+   ],
+   "skill": "自己發現情緒、選方法",
+   "scene": "mascot_idle",
+   "scene_args": {
+    "symbol": "！"
+   }
+  }
+ ],
+ "cta": [
+  "收藏起來，",
+  "這個週末玩"
+ ],
+ "cta_sub": "每天一則 1 分鐘教養筆記",
+ "cta_box": [
+  "點主頁連結加入官方 LINE",
+  "可以先免費試閱"
+ ],
+ "credit": "整理自 The OT Toolbox",
+ "wordmark": "好奇腦 How Kids Know",
+ "durations": [
+  3.4,
+  5.2,
+  5.2,
+  5.2,
+  5.6
+ ]
+}
