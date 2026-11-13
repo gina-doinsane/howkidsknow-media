@@ -8,19 +8,36 @@
  "hook_sub": "3 個親子一起做的小活動",
  "hook_scene": "hook_props",
  "hook_scene_args": {
-  "bubble": "深呼吸"
+  "props": [
+   "balloon",
+   {
+    "type": "bubble",
+    "text": "深呼吸"
+   },
+   "thermometer"
+  ]
  },
  "games": [
   {
    "name": "角色心情卡",
    "how": [
-    "問孩子：現在像跳跳虎，",
+    "問孩子：現在像跳跳的老虎，",
     "還是慢慢走的驢子？"
    ],
    "skill": "認出自己現在的感覺",
-   "scene": "mascot_idle",
+   "scene": "mood_characters",
    "scene_args": {
-    "symbol": "？"
+    "cards": [
+     {
+      "kind": "bouncy",
+      "label": "跳跳"
+     },
+     {
+      "kind": "slow",
+      "label": "慢慢"
+     }
+    ],
+    "ask": "現在像哪個？"
    }
   },
   {
@@ -30,9 +47,10 @@
     "像把氣球慢慢吹大。"
    ],
    "skill": "讓身體慢慢靜下來",
-   "scene": "mascot_idle",
+   "scene": "balloon_breath",
    "scene_args": {
-    "symbol": "～"
+    "in": "吸",
+    "out": "吐"
    }
   },
   {
@@ -42,9 +60,15 @@
     "指指今天怪獸跑到哪格。"
    ],
    "skill": "自己發現情緒、選方法",
-   "scene": "mascot_idle",
+   "scene": "feelings_thermometer",
    "scene_args": {
-    "symbol": "！"
+    "levels": [
+     "平靜",
+     "",
+     "",
+     "好激動"
+    ],
+    "calm": "深呼吸"
    }
   }
  ],

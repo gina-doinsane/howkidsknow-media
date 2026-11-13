@@ -1,22 +1,88 @@
 {
-  "badge": "3–12 歲",
-  "hook": ["週末在家，", "先動一動再專心"],
-  "hook_mark": "動一動",
-  "hook_sub": "3 個在家就能玩的專心小遊戲",
-  "hook_scene": "hook_props",
-  "hook_scene_args": {"bubble": "拍拍手"},
-  "games": [
-    {"name": "抱枕壓一壓", "how": ["抱著抱枕用力壓十秒，", "或趴在大球上滾一滾。"],
-     "skill": "身體動一動，比較坐得住", "scene": "mascot_idle", "scene_args": {"symbol": "壓"}},
-    {"name": "拍手模仿", "how": ["我拍兩下，換你拍，", "看拍得一不一樣。"],
-     "skill": "先專心聽，再跟著做", "scene": "mascot_idle", "scene_args": {"symbol": "拍"}},
-    {"name": "數字倒著說", "how": ["我說兩個數字，", "你倒過來說一次。"],
-     "skill": "把聽到的記在腦子裡", "scene": "mascot_idle", "scene_args": {"symbol": "21"}}
-  ],
-  "cta": ["收藏起來，", "這個週末玩"],
-  "cta_sub": "每天一則 1 分鐘教養筆記",
-  "cta_box": ["點主頁連結加入官方 LINE", "可以先免費試閱"],
-  "credit": "整理自 The OT Toolbox",
-  "wordmark": "好奇腦 How Kids Know",
-  "durations": [3.4, 5.2, 5.2, 5.2, 5.6]
+ "badge": "3–12 歲",
+ "hook": [
+  "週末在家，",
+  "先動一動再專心"
+ ],
+ "hook_mark": "動一動",
+ "hook_sub": "3 個在家就能玩的專心小遊戲",
+ "hook_scene": "hook_props",
+ "hook_scene_args": {
+  "props": [
+   "pillow",
+   {
+    "type": "bubble",
+    "text": "拍拍手"
+   },
+   {
+    "type": "numbers",
+    "text": "37"
+   }
+  ]
+ },
+ "games": [
+  {
+   "name": "抱枕壓一壓",
+   "how": [
+    "抱著抱枕用力壓十秒，",
+    "或趴在大球上滾一滾。"
+   ],
+   "skill": "身體動一動，比較坐得住",
+   "scene": "pillow_squeeze",
+   "scene_args": {
+    "count": 10,
+    "unit": "秒",
+    "roll": "滾一滾"
+   }
+  },
+  {
+   "name": "拍手模仿",
+   "how": [
+    "我拍兩下，換你拍，",
+    "看拍得一不一樣。"
+   ],
+   "skill": "先專心聽，再跟著做",
+   "scene": "clap_echo",
+   "scene_args": {
+    "me": "我拍",
+    "you": "換你",
+    "claps": 2
+   }
+  },
+  {
+   "name": "數字倒著說",
+   "how": [
+    "我說兩個數字，",
+    "你倒過來說一次。"
+   ],
+   "skill": "把聽到的記在腦子裡",
+   "scene": "number_reverse",
+   "scene_args": {
+    "numbers": [
+     "3",
+     "7"
+    ],
+    "say": "我說",
+    "back": "倒過來"
+   }
+  }
+ ],
+ "cta": [
+  "收藏起來，",
+  "這個週末玩"
+ ],
+ "cta_sub": "每天一則 1 分鐘教養筆記",
+ "cta_box": [
+  "點主頁連結加入官方 LINE",
+  "可以先免費試閱"
+ ],
+ "credit": "整理自 The OT Toolbox",
+ "wordmark": "好奇腦 How Kids Know",
+ "durations": [
+  3.4,
+  5.2,
+  5.2,
+  5.2,
+  5.6
+ ]
 }
