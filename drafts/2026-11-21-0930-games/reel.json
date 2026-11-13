@@ -1,76 +1,22 @@
 {
- "badge": "3–12 歲",
- "hook": [
-  "週末在家，",
-  "10 分鐘練大腦"
- ],
- "hook_mark": "10 分鐘",
- "hook_sub": "3 個不用買教具的小遊戲",
- "hook_scene": "hook_props",
- "hook_scene_args": {
-  "bubble": "老師說"
- },
- "games": [
-  {
-   "name": "翻牌配對",
-   "how": [
-    "卡片蓋起來，輪流翻兩張，",
-    "看是不是一對。"
-   ],
-   "skill": "記住剛剛看過的位置",
-   "scene": "memory_cards",
-   "scene_args": {}
-  },
-  {
-   "name": "老師說",
-   "how": [
-    "聽到「老師說」才做動作，",
-    "沒說就不動。"
-   ],
-   "skill": "先聽完，再決定要不要動",
-   "scene": "simon_says",
-   "scene_args": {
-    "cue": "老師說",
-    "do": "摸頭",
-    "dont": "拍手",
-    "did": "做動作",
-    "stayed": "不動"
-   }
-  },
-  {
-   "name": "杯子還能做什麼？",
-   "how": [
-    "一起想想：杯子除了喝水，",
-    "還能拿來做什麼？"
-   ],
-   "skill": "換個角度想",
-   "scene": "object_ideas",
-   "scene_args": {
-    "labels": [
-     "疊高塔",
-     "當鼓敲",
-     "傳聲筒",
-     "筆筒"
-    ]
-   }
-  }
- ],
- "cta": [
-  "收藏起來，",
-  "這個週末玩"
- ],
- "cta_sub": "每天一則 1 分鐘教養筆記",
- "cta_box": [
-  "點主頁連結加入官方 LINE",
-  "可以先免費試閱"
- ],
- "credit": "整理自 The OT Toolbox",
- "wordmark": "好奇腦 How Kids Know",
- "durations": [
-  3.4,
-  5.2,
-  5.2,
-  5.2,
-  5.6
- ]
+  "badge": "3–12 歲",
+  "hook": ["週末在家，", "先動一動再專心"],
+  "hook_mark": "動一動",
+  "hook_sub": "3 個在家就能玩的專心小遊戲",
+  "hook_scene": "hook_props",
+  "hook_scene_args": {"bubble": "拍拍手"},
+  "games": [
+    {"name": "抱枕壓一壓", "how": ["抱著抱枕用力壓十秒，", "或趴在大球上滾一滾。"],
+     "skill": "身體動一動，比較坐得住", "scene": "mascot_idle", "scene_args": {"symbol": "壓"}},
+    {"name": "拍手模仿", "how": ["我拍兩下，換你拍，", "看拍得一不一樣。"],
+     "skill": "先專心聽，再跟著做", "scene": "mascot_idle", "scene_args": {"symbol": "拍"}},
+    {"name": "數字倒著說", "how": ["我說兩個數字，", "你倒過來說一次。"],
+     "skill": "把聽到的記在腦子裡", "scene": "mascot_idle", "scene_args": {"symbol": "21"}}
+  ],
+  "cta": ["收藏起來，", "這個週末玩"],
+  "cta_sub": "每天一則 1 分鐘教養筆記",
+  "cta_box": ["點主頁連結加入官方 LINE", "可以先免費試閱"],
+  "credit": "整理自 The OT Toolbox",
+  "wordmark": "好奇腦 How Kids Know",
+  "durations": [3.4, 5.2, 5.2, 5.2, 5.6]
 }
