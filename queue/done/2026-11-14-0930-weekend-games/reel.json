@@ -1,0 +1,76 @@
+{
+  "badge": "3–12 歲",
+  "hook": [
+    "週末在家，",
+    "10 分鐘練大腦"
+  ],
+  "hook_mark": "10 分鐘",
+  "hook_sub": "3 個不用買教具的小遊戲",
+  "hook_scene": "hook_props",
+  "hook_scene_args": {
+    "bubble": "老師說"
+  },
+  "games": [
+    {
+      "name": "翻牌配對",
+      "how": [
+        "卡片蓋起來，輪流翻兩張，",
+        "看是不是一對。"
+      ],
+      "skill": "記住剛剛看過的位置",
+      "scene": "memory_cards",
+      "scene_args": {}
+    },
+    {
+      "name": "老師說",
+      "how": [
+        "聽到「老師說」才做動作，",
+        "沒說就不動。"
+      ],
+      "skill": "先聽完，再決定要不要動",
+      "scene": "simon_says",
+      "scene_args": {
+        "cue": "老師說",
+        "do": "摸頭",
+        "dont": "拍手",
+        "did": "做動作",
+        "stayed": "不動"
+      }
+    },
+    {
+      "name": "杯子還能做什麼？",
+      "how": [
+        "一起想想：杯子除了喝水，",
+        "還能拿來做什麼？"
+      ],
+      "skill": "換個角度想",
+      "scene": "object_ideas",
+      "scene_args": {
+        "labels": [
+          "疊高塔",
+          "當鼓敲",
+          "傳聲筒",
+          "筆筒"
+        ]
+      }
+    }
+  ],
+  "cta": [
+    "收藏起來，",
+    "這個週末玩"
+  ],
+  "cta_sub": "每天一則 1 分鐘教養筆記",
+  "cta_box": [
+    "點主頁連結加入官方 LINE",
+    "可以先免費試閱"
+  ],
+  "credit": "整理自 The OT Toolbox",
+  "wordmark": "好奇腦 How Kids Know",
+  "durations": [
+    3.4,
+    5.2,
+    5.2,
+    5.2,
+    5.6
+  ]
+}
