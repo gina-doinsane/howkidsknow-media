@@ -1,66 +1,77 @@
 [
- {
-  "date": "2026-11-10",
-  "slug": "criticism",
-  "tier": "9–12 歲",
-  "topic": "面對批評",
-  "ig_media_id": "18474666508189100",
-  "slot": "二 19:30",
-  "posted_at": "2026-11-10 19:21"
- },
- {
-  "date": "2026-11-11",
-  "slug": "criticism-v2",
-  "tier": "9–12 歲",
-  "topic": "面對批評",
-  "ig_media_id": "18112680539628464",
-  "slot": "三 12:00（補發）",
-  "posted_at": "2026-11-11 11:52"
- },
- {
-  "date": "2026-11-12",
-  "slug": "sleep-learn",
-  "tier": "3–5 歲",
-  "topic": "睡眠與學習",
-  "ig_media_id": "17951287902347092",
-  "slot": "四 12:30",
-  "posted_at": "2026-11-12 12:22",
-  "source_url": "https://boldscience.org/young-children-sleep-to-learn/",
-  "theme": "睡眠與學習"
- },
- {
-  "date": "2026-11-13",
-  "slug": "weekend-games",
-  "tier": "3–12 歲",
-  "topic": "週末 10 分鐘在家小遊戲",
-  "ig_media_id": "18352812265267266",
-  "slot": "五 21:30（原排六 09:30，Gina 改提前）",
-  "posted_at": "2026-11-13 21:30",
-  "source_url": "https://www.theottoolbox.com/games-to-help-kids-improve-executive/",
-  "theme": "週末 10 分鐘在家小遊戲",
-  "format": "reel",
-  "video": "reel-music"
- },
- {
-  "date": "2026-11-15",
-  "slug": "body-detective",
-  "tier": "6–12 歲",
-  "topic": "身體感覺（內感受）",
-  "ig_media_id": "17868715647680368",
-  "slot": "日 21:30",
-  "posted_at": "2026-11-15 21:23",
-  "source_url": "https://yourkidstable.com/interoception/",
-  "theme": "身體感覺"
- },
- {
-  "date": "2026-11-16",
-  "slug": "firstday",
-  "tier": "3–5 歲",
-  "topic": "收心、上學情緒",
-  "ig_media_id": "18640758370015782",
-  "slot": "一 19:30",
-  "posted_at": "2026-11-16 19:30",
-  "source_url": "https://childmind.org/article/starting-elementary-school/",
-  "theme": "收心、上學情緒"
- }
+  {
+    "date": "2026-11-10",
+    "slug": "criticism",
+    "tier": "9–12 歲",
+    "topic": "面對批評",
+    "ig_media_id": "18474666508189100",
+    "slot": "二 19:30",
+    "posted_at": "2026-11-10 19:21"
+  },
+  {
+    "date": "2026-11-11",
+    "slug": "criticism-v2",
+    "tier": "9–12 歲",
+    "topic": "面對批評",
+    "ig_media_id": "18112680539628464",
+    "slot": "三 12:00（補發）",
+    "posted_at": "2026-11-11 11:52"
+  },
+  {
+    "date": "2026-11-12",
+    "slug": "sleep-learn",
+    "tier": "3–5 歲",
+    "topic": "睡眠與學習",
+    "ig_media_id": "17951287902347092",
+    "slot": "四 12:30",
+    "posted_at": "2026-11-12 12:22",
+    "source_url": "https://boldscience.org/young-children-sleep-to-learn/",
+    "theme": "睡眠與學習"
+  },
+  {
+    "date": "2026-11-13",
+    "slug": "weekend-games",
+    "tier": "3–12 歲",
+    "topic": "週末 10 分鐘在家小遊戲",
+    "ig_media_id": "18352812265267266",
+    "slot": "五 21:30（原排六 09:30，Gina 改提前）",
+    "posted_at": "2026-11-13 21:30",
+    "source_url": "https://www.theottoolbox.com/games-to-help-kids-improve-executive/",
+    "theme": "週末 10 分鐘在家小遊戲",
+    "format": "reel",
+    "video": "reel-music"
+  },
+  {
+    "date": "2026-11-15",
+    "slug": "body-detective",
+    "tier": "6–12 歲",
+    "topic": "身體感覺（內感受）",
+    "ig_media_id": "17868715647680368",
+    "slot": "日 21:30",
+    "posted_at": "2026-11-15 21:23",
+    "source_url": "https://yourkidstable.com/interoception/",
+    "theme": "身體感覺"
+  },
+  {
+    "date": "2026-11-16",
+    "slug": "firstday",
+    "tier": "3–5 歲",
+    "topic": "收心、上學情緒",
+    "ig_media_id": "18640758370015782",
+    "slot": "一 19:30",
+    "posted_at": "2026-11-16 19:30",
+    "source_url": "https://childmind.org/article/starting-elementary-school/",
+    "theme": "收心、上學情緒"
+  },
+  {
+    "date": "2026-11-17",
+    "slug": "attention",
+    "tier": "6–12 歲",
+    "topic": "專注、作業、學習習慣",
+    "ig_media_id": "18084253202350536",
+    "slot": "二 21:30",
+    "posted_at": "2026-11-17 21:30",
+    "source_url": "https://boldscience.org/when-pupils-look-attentive-but-their-minds-have-wandered/",
+    "theme": "專注、作業、學習習慣"
+  }
 ]
