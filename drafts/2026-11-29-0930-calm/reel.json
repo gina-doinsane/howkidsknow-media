@@ -1,0 +1,76 @@
+{
+ "badge": "3–12 歲",
+ "hook": [
+  "週日早上，",
+  "一起慢慢放鬆"
+ ],
+ "hook_mark": "慢慢放鬆",
+ "hook_sub": "3 個親子一起做的小活動",
+ "hook_scene": "hook_props",
+ "hook_scene_args": {
+  "props": [
+   "balloon",
+   {
+    "type": "bubble",
+    "text": "放鬆"
+   },
+   "pillow"
+  ]
+ },
+ "games": [
+  {
+   "name": "五感小偵探",
+   "how": [
+    "閉上眼睛十秒，",
+    "說說聞到、聽到什麼。"
+   ],
+   "skill": "留意當下的感覺",
+   "scene": "mascot_idle",
+   "scene_args": {
+    "symbol": "耳"
+   }
+  },
+  {
+   "name": "摸摸放鬆",
+   "how": [
+    "從腳趾、膝蓋到額頭，",
+    "一個一個慢慢放鬆。"
+   ],
+   "skill": "讓身體慢慢靜下來",
+   "scene": "mascot_idle",
+   "scene_args": {
+    "symbol": "鬆"
+   }
+  },
+  {
+   "name": "輪流當小偵探",
+   "how": [
+    "換孩子出題，",
+    "大人也一起玩。"
+   ],
+   "skill": "願意一起參與",
+   "scene": "mascot_idle",
+   "scene_args": {
+    "symbol": "偵"
+   }
+  }
+ ],
+ "cta": [
+  "收藏起來，",
+  "這個週末玩"
+ ],
+ "cta_sub": "每天一則 1 分鐘教養筆記",
+ "cta_box": [
+  "點主頁連結加入官方 LINE",
+  "可以先免費試閱"
+ ],
+ "credit": "整理自 ADDitude",
+ "wordmark": "好奇腦 How Kids Know",
+ "durations": [
+  3.4,
+  5.2,
+  5.2,
+  5.2,
+  5.6
+ ]
+}

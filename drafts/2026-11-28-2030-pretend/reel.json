@@ -1,0 +1,76 @@
+{
+ "badge": "3–12 歲",
+ "hook": [
+  "週末在家，",
+  "一起玩假裝遊戲"
+ ],
+ "hook_mark": "假裝遊戲",
+ "hook_sub": "3 個不用花錢的小遊戲",
+ "hook_scene": "hook_props",
+ "hook_scene_args": {
+  "props": [
+   "cups",
+   {
+    "type": "bubble",
+    "text": "假裝"
+   },
+   "pillow"
+  ]
+ },
+ "games": [
+  {
+   "name": "自己決定玩什麼",
+   "how": [
+    "留一段沒安排的時間，",
+    "讓孩子決定怎麼玩。"
+   ],
+   "skill": "練習想像和表達",
+   "scene": "mascot_idle",
+   "scene_args": {
+    "symbol": "？"
+   }
+  },
+  {
+   "name": "假裝煮湯餵娃娃",
+   "how": [
+    "假裝煮湯、餵娃娃，",
+    "跟著孩子的玩法走。"
+   ],
+   "skill": "練習想像和照顧人",
+   "scene": "mascot_idle",
+   "scene_args": {
+    "symbol": "湯"
+   }
+  },
+  {
+   "name": "紙箱變變變",
+   "how": [
+    "紙箱、布巾、湯匙，",
+    "想想它們能變成什麼。"
+   ],
+   "skill": "換個角度想",
+   "scene": "mascot_idle",
+   "scene_args": {
+    "symbol": "變"
+   }
+  }
+ ],
+ "cta": [
+  "收藏起來，",
+  "這個週末玩"
+ ],
+ "cta_sub": "每天一則 1 分鐘教養筆記",
+ "cta_box": [
+  "點主頁連結加入官方 LINE",
+  "可以先免費試閱"
+ ],
+ "credit": "整理自 BOLD",
+ "wordmark": "好奇腦 How Kids Know",
+ "durations": [
+  3.4,
+  5.2,
+  5.2,
+  5.2,
+  5.6
+ ]
+}
