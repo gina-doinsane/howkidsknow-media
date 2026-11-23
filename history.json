@@ -132,5 +132,17 @@
     "video": "reel-music",
     "source_url": "https://www.theottoolbox.com/zones-of-regulation-activities-2/",
     "theme": "無聊的好處、親子一起放鬆"
+  },
+  {
+    "date": "2026-11-23",
+    "slug": "afterschool",
+    "tier": "6–12 歲",
+    "topic": "收心、上學情緒",
+    "ig_media_id": "18121260269609652",
+    "slot": "一 19:30",
+    "posted_at": "2026-11-23 19:22",
+    "source_url": "https://www.theottoolbox.com/after-school-meltdowns-why-kids-fall-apart-at-home-and-how-to-help/",
+    "theme": "收心、上學情緒",
+    "note": "發文 API 回 403（code 4／2207051），但貼文實際已發出；11/23 Gina 確認、Graph API 回查"
   }
 ]
