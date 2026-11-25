@@ -144,5 +144,17 @@
     "source_url": "https://www.theottoolbox.com/after-school-meltdowns-why-kids-fall-apart-at-home-and-how-to-help/",
     "theme": "收心、上學情緒",
     "note": "發文 API 回 403（code 4／2207051），但貼文實際已發出；11/23 Gina 確認、Graph API 回查"
+  },
+  {
+    "date": "2026-11-25",
+    "slug": "talk",
+    "tier": "6–12 歲",
+    "topic": "晚餐桌開話題",
+    "ig_media_id": "18096448937695050",
+    "slot": "三 19:30",
+    "posted_at": "2026-11-25 19:22",
+    "source_url": "https://boldscience.org/measuring-the-tides-of-talk/",
+    "theme": "晚餐桌開話題",
+    "note": "發文 API 回 403（code 4／2207051），但貼文實際已發出；Graph API 回查確認"
   }
 ]
